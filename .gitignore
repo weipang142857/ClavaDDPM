@@ -11,7 +11,6 @@ catboost_info/
 **/**.png
 **/**.tar
 **/**.code-workspace
-**/**.csv
 exp/**/**/results_catboost.json
 exp/**/**/results_mlp.json
 .vscode/
