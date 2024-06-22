@@ -1,0 +1,42 @@
+{
+    "FARM": {
+        "size": 2,
+        "type": "discrete"
+    },
+    "OWNERSHP": {
+        "size": 3,
+        "type": "discrete"
+    },
+    "ACREHOUS": {
+        "size": 3,
+        "type": "discrete"
+    },
+    "TAXINCL": {
+        "size": 3,
+        "type": "discrete"
+    },
+    "PROPINSR": {
+        "size": 60,
+        "type": "continuous"
+    },
+    "COSTELEC": {
+        "size": 100,
+        "type": "continuous"
+    },
+    "VALUEH": {
+        "size": 100,
+        "type": "continuous"
+    },
+    "ROOMS": {
+        "size": 10,
+        "type": "discrete"
+    },
+    "PLUMBING": {
+        "size": 3,
+        "type": "discrete"
+    },
+    "PUMA": {
+        "size": 233,
+        "type": "discrete"
+    }
+}

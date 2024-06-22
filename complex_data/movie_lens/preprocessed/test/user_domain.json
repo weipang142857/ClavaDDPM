@@ -1,0 +1,1 @@
+{"age": {"size": 7, "type": "continuous"}, "u_gender": {"size": 2, "type": "discrete"}, "occupation": {"size": 5, "type": "discrete"}}

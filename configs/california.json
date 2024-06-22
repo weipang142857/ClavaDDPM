@@ -1,0 +1,53 @@
+{
+    "general": {
+        "data_dir": "complex_data/california/train",
+        "exp_name": "california_train",
+        "workspace_dir": "clavaDDPM_workspace/california",
+        "sample_prefix": ""
+    },
+    "clustering" : {
+        "parent_scale": 1.0,
+        "num_clusters": {
+            "individual": 25
+        },
+        "clustering_method": "both"
+    },
+    "diffusion": {
+        "d_layers": [
+            512,
+            1024,
+            1024,
+            1024,
+            1024,
+            512
+        ],
+        "dropout": 0.0,
+        "num_timesteps": 2000,
+        "model_type": "mlp",
+        "iterations": 100000,
+        "batch_size": 4096,
+        "lr": 6e-4,
+        "gaussian_loss_type": "mse",
+        "weight_decay": 1e-5,
+        "scheduler": "cosine"
+    },
+    "classifier": {
+        "d_layers": [
+            128, 256, 512, 1024, 512, 256, 128
+        ],
+        "lr": 0.0001,
+        "dim_t": 128,
+        "batch_size": 4096,
+        "iterations": 10000
+    },
+    "sampling": {
+        "batch_size": 20000,
+        "classifier_scale": 1.0
+    },
+    "matching": {
+        "num_matching_clusters": 1,
+        "matching_batch_size": 1000,
+        "unique_matching": true,
+        "no_matching": false
+    }
+}

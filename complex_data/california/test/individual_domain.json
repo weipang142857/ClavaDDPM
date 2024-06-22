@@ -1,0 +1,62 @@
+{
+    "RELATE": {
+        "size": 8,
+        "type": "discrete"
+    },
+    "SEX": {
+        "size": 2,
+        "type": "discrete"
+    },
+    "AGE": {
+        "size": 86,
+        "type": "continuous"
+    },
+    "MARST": {
+        "size": 6,
+        "type": "discrete"
+    },
+    "RACE": {
+        "size": 9,
+        "type": "discrete"
+    },
+    "CITIZEN": {
+        "size": 4,
+        "type": "discrete"
+    },
+    "SPEAKENG": {
+        "size": 6,
+        "type": "discrete"
+    },
+    "SCHOOL": {
+        "size": 3,
+        "type": "discrete"
+    },
+    "EDUC": {
+        "size": 11,
+        "type": "discrete"
+    },
+    "GRADEATT": {
+        "size": 8,
+        "type": "discrete"
+    },
+    "SCHLTYPE": {
+        "size": 4,
+        "type": "discrete"
+    },
+    "EMPSTAT": {
+        "size": 4,
+        "type": "discrete"
+    },
+    "CLASSWKR": {
+        "size": 3,
+        "type": "discrete"
+    },
+    "INCTOT": {
+        "size": 100,
+        "type": "continuous"
+    },
+    "DISABWRK": {
+        "size": 3,
+        "type": "discrete"
+    }
+}

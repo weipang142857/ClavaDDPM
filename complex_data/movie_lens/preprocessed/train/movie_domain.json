@@ -1,0 +1,1 @@
+{"year": {"size": 4, "type": "continuous"}, "isEnglish": {"size": 2, "type": "discrete"}, "country": {"size": 4, "type": "discrete"}, "runningtime": {"size": 4, "type": "continuous"}}
