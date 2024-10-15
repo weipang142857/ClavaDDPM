@@ -11,3 +11,5 @@ See `complex_data/california` as an example.
 2. Create a `dataset_meta.json`, in which `tables` should be manually created to specify all foreign key relationships in a multi-table dataset.
 3. Create a `relation_order` in `dataset_meta.json`, which specifies the topological order of the multi-table dataset. The function `topological_sort` in `preprocess_utils.py` helps create it.
 4. Create a domain file for each table, id columns excluded.
+
+Other datasets (CCS, Instacart 05, Berka): https://drive.google.com/file/d/1H_IGsL7JuCJYlq_6TOmdIZ4-q-wFafCL/view?usp=sharing
