@@ -1,3 +1,4 @@
+# NeurIPS 2024
 Official implementation of "ClavaDDPM:Multi-relational Data Synthesis with Cluster-guided Diffusion Models" https://arxiv.org/pdf/2405.17724
 
 To run a train-sampling pipeline:
